@@ -84,7 +84,6 @@ class ShowMarketPlacePage extends AbstractGamePage
 			JOIN %%LOG_FLEETS%% buyer ON buyer.fleet_id = buyer_fleet_id
 			WHERE transaction_type = 0 ORDER BY time DESC LIMIT 40;';
 		$trades = $db->select($sql, array(
-			//TODO LIMIT
 		));
 		return $trades;
 	}
@@ -102,7 +101,6 @@ class ShowMarketPlacePage extends AbstractGamePage
 			JOIN %%LOG_FLEETS%% buyer ON buyer.fleet_id = buyer_fleet_id
 			WHERE transaction_type = 1 ORDER BY time DESC LIMIT 40;';
 		$trades = $db->select($sql, array(
-			//TODO LIMIT
 		));
 		for($i =0; $i< count($trades);$i++){
 			$fleet =  FleetFunctions::unserialize($trades[$i]['fleet']);
@@ -371,8 +369,8 @@ class ShowMarketPlacePage extends AbstractGamePage
 
 		foreach ($fleetResult as $fleetsRow)
 		{
-			$resourceN = " ";
-			//TODO TRANSLATION
+			//Resource type label
+			$resourceN = $LNG['market_p_msg_wrong_resource_type'];
 			switch($fleetsRow['ex_resource_type']) {
 				case 1:
 					$resourceN = $LNG['tech'][901];

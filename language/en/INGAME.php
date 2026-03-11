@@ -458,6 +458,9 @@ $LNG['rs_sum']								= 'Total';
 $LNG['rs_daily']					        = 'Daily Production:';
 $LNG['rs_weekly']							= 'Weekly Production:';
 $LNG['rs_ress_bonus']                       = 'Bonus (Officers/Bonus):';
+$LNG['rs_per_hour']                         = 'per hour';
+$LNG['rs_per_day']                          = 'per day';
+$LNG['rs_per_week']                         = 'per week';
 
 //----------------------------------------------------------------------------//
 // Officers
@@ -1042,7 +1045,7 @@ $LNG['market_fleet']  = 'Fleet';
 $LNG['market_p_msg_not_found']  = 'Offer not found.';
 $LNG['market_p_msg_more_ships_is_needed']  = 'More ships required.';
 $LNG['market_p_msg_resources_error']  = 'Not enough resources.';
-$LNG['market_p_msg_sent']  = 'Sent %s Light Cargos, %s Heavy Cargos';
+$LNG['market_p_msg_wrong_resource_type']  = 'Wrong resource type';
 
 $LNG['market_msg_trade_topic'] = "Trading status";
 $LNG['market_msg_trade_from'] = "Trading zone";

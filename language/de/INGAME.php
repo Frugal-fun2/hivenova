@@ -439,6 +439,9 @@ $LNG['rs_sum']							= 'Total';
 $LNG['rs_daily']						= 'Pro Tag';
 $LNG['rs_weekly']						= 'Pro Woche';
 $LNG['rs_ress_bonus']						= 'Bonus(Offiziere/DM-Bonus):';
+$LNG['rs_per_hour']						= 'pro Stunde';
+$LNG['rs_per_day']						= 'pro Tag';
+$LNG['rs_per_week']						= 'pro Woche';
 
 //----------------------------------------------------------------------------//
 //OFFICIERS
@@ -1055,7 +1058,7 @@ $LNG['market_info_description'] = "Linke Seite - Martplatzangebot | Rechte Seite
 $LNG['market_p_msg_not_found']  = 'Angebot nicht gefunden.';
 $LNG['market_p_msg_more_ships_is_needed']  = 'Es werden weitere Schiffe benötigt.';
 $LNG['market_p_msg_resources_error']  = 'Nicht genug Ressourcen vorhanden.';
-$LNG['market_p_msg_sent']  = 'Sende %s Kleine Transporter, %s Große Transporter';
+$LNG['market_p_msg_wrong_resource_type']  = 'Falscher Rohstofftyp';
 $LNG['market_p_ratio']							= 'Wechselkurs';
 $LNG['market_msg_trade_topic'] = "Handelsstatus";
 $LNG['market_msg_trade_from'] = "Moon Marktplatz";

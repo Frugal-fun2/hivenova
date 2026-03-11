@@ -1,8 +1,9 @@
 {block name="title" prepend}{$LNG.lm_resources}{/block}
 {block name="content"}
+<div align="center">
 <form action="?page=resources" method="post">
 <input type="hidden" name="mode" value="send">
-<table>
+<table style="margin: 0 auto;">
 <tbody>
 <tr>
 	<th colspan="5">{$header}</th>
@@ -72,4 +73,5 @@
 </tbody>
 </table>
 </form>
+</div>
 {/block}

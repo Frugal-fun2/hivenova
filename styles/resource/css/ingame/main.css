@@ -102,6 +102,7 @@ content {
     grid-column: 2/4;
     max-width: 950px;
     min-height: 700px;
+    margin: 0 auto;
     /* overflow: auto; */
     padding: 16px;
 }
